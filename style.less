@@ -1,0 +1,87 @@
+div.stats{
+	min-height: 300px;
+    .mixin();
+}
+div.inner_stats{
+    width: 80%;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+div.stat_element{
+    width: 150px;
+    height: 100px;
+    color:white;
+    margin:10px 20px;
+}
+div.feature_elements {
+    min-height:500px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+div.feature_element{
+    width:200px;
+    .mixin_height;
+    color:black;
+    margin:10px 20px;
+    border:1px grey solid;
+}
+div.open_barbershop{
+    text-align:center;
+    margin: 100px;
+
+}
+div.open_barbershop h2{
+
+}
+div.cities{
+    min-height: 200px;
+    padding: 20px;
+    background-color: #a34b28;
+}
+div.cities_list{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+div.city{
+    width:100px;
+    .mixin_height;
+    color:black;
+    margin:10px 20px;
+    border:1px grey solid;
+    border-radius: 50%;
+}
+div.city img{
+    width:100px;
+    .mixin_height;
+}
+div.button{
+    .my_hover_mixin();
+}
+.my_hover_mixin(){
+    transition: 0.5s;
+    &:hover {
+        background-color: #a34a28;
+    }
+}
+.mixin(){
+    background-color:#a34a28;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.mixin_height{
+    height:100px;
+}

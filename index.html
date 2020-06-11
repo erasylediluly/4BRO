@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>4BRO BARBERSHOP</title>
+	<meta name = "viewport" content = "width=device-width">
+	<link rel="stylesheet" href="main.css" type="text/css">
+	<script src="radio.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="script.js" type="text/javascript"></script>
+</head>
+<body onload="radio()">
+	<div class='container'>
+		<span class='pulse-button'>Записаться</span>
+	</div>
+	<div class="header">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#"><img src="icons\logo.png" alt="logo" width="80"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+				  <a class="nav-link" href="index.html">ГЛАВНАЯ <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#pricelist">УСЛУГИ</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#barberlist">МАСТЕРА</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#productlist">ПРОДУКЦИЯ</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="academy.html">АКАДЕМИЯ</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="contacts.html">КОНТАКТЫ</a>
+				  </li>
+			  </ul>
+			  <form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+			  </form>
+			</div>
+		  </nav>
+	</div>	
+	<div class="content">
+		<div class="about" id = "about">
+			<div class="logo">
+				<img src="icons\logo.png" alt="logo" width="400" class = "logo">
+			</div>
+			<div class="about_text">
+				<p> Стрижем и бреем по первому классу </p>
+			</div>
+			<div class="button">
+				<a href="">Записаться</a>
+			</div>
+			<div class="sn">
+				<div class="facebook network">
+					<img src="icons\facebook.png" alt="facebook">
+				</div>
+				<div class="instagram network">
+					<img src="icons\instagram.png" alt="instagram">
+				
+				</div>
+				<div class="vk network">
+					<img src="icons\vk.png" alt="vk">
+
+				</div>
+			</div>
+		</div>
+		<div class="pricelist"id = "pricelist">
+			<div class="inner_priceList">
+				<h1>Цены</h1>	
+				<div class="price">
+					<div class="price_element">
+						<div class="price_title">
+							<h2>Мужская стрижка</h2>
+						</div>
+						<div class="price_price">
+							<h2>3000тг</h2>
+						</div>
+					</div>
+					<div class="price_element">
+						<div class="price_title">
+							<h2>Детская стрижка</h2>
+						</div>
+						<div class="price_price">
+							<h2>2500тг</h2>
+						</div>
+					</div>
+					<div class="price_element">
+						<div class="price_title">
+							<h2>Стрижка машинкой</h2>
+						</div>
+						<div class="price_price">
+							<h2>2000тг</h2>
+						</div>
+					</div>
+					<div class="price_element">
+						<div class="price_title">
+							<h2>Бритье головы опаской</h2>
+						</div>
+						<div class="price_price">
+							<h2>3000тг</h2>
+						</div>
+					</div>
+					<div class="price_element">
+						<div class="price_title">
+							<h2>Укладка волос мужская</h2>
+						</div>
+						<div class="price_price">
+							<h2>1500тг</h2>
+						</div>
+					</div>
+				</div>
+				<div class="button">
+					<a href="price.html">ПОДРОБНЕЕ</a>
+				</div>
+			</div>
+		</div>
+		<div class="barberslist" id = "barberlist">
+			<div class="barbers">
+				<h1>НАШИ БАРБЕРЫ</h1>
+				<p>Мастера своего дела</p>
+			</div>
+			<div class="barber_images">
+				<div class="">
+					<img class="" src="images\boss1.jpg" alt="First slide" width = "200">
+				</div>
+				<div class="">
+					<img class="" src="images\boss2.jpg" alt="Second slide" width = "200">
+				</div>
+				<div class="">
+					<img class="" src="images\boss3.jpg" alt="Third slide" width = "200"	>
+				</div>
+			</div>
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner" style = "text-align: center;">
+						<div class="carousel-item active">
+							<img src="images\\boss1.jpg" alt="pomade" style = "width:100%">					
+						</div>
+							<div class="carousel-item">
+								<img src="images\\boss2.jpg" alt="paste" style = "width:100%">					
+							</div>
+								<div class="carousel-item">
+									<img src="images\\boss3.jpg" alt="clay" style = "width:100%">					
+								</div>
+								
+						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+									</a>
+					</div>
+				  </div>
+			<div class="button">
+				<a href="barber.html">ПОДРОБНЕЕ</a>
+			</div>
+		</div>
+		<div class="productlist" id = "productlist">
+				<div class="product_text">
+					<h1>Продукция</h1>
+				</div>
+				<div class="product_content">
+					<div class="description" >
+						<div id="carouselExampleControls3" class="carousel slide carousel-sync" data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active sync" >
+										<!-- <img class="d-block w-100 productItem" src="images\\pomade.jpg" alt="First slide"> -->
+										<p>Помада для стайлинга American Crew Pomade подходит для средней фиксации волос, обеспечивая высокий уровень блеска.</p>
+									
+									</div>
+									<div class="carousel-item">
+										<!-- <img class="d-block w-100 productItem" src="images\\paste.jfif" alt="Second slide"> -->
+										<p>
+												«Matte Paste» наши матовые волосы паста дает вам точную форму волос в быстром сроке.				
+											</p>
+											
+									</div>
+									<div class="carousel-item">
+										<!-- <img class="d-block w-100 productItem" src="images\\clay.webp" alt="Third slide"> -->
+										<p>
+												Текстурирующая глина матирует, придает текстуру и выделяет пряди. Суперфиксация 5 обеспечивает стойкость стайлинга. Хорошо подходит для коротких волос. </p>
+											
+
+									</div>
+									<div class="carousel-item">
+											<!-- <img class="d-block w-100 productItem" src="images\\paste.jfif" alt="Second slide"> -->
+											<p>
+													Текстурирующая глина. Для мужчин. Сильная фиксация. Подвижная текстура для небрежных укладок. Матовый эффект. 					</p>
+												</p>
+												
+										</div>
+										<div class="carousel-item">
+												<!-- <img class="d-block w-100 productItem" src="images\\paste.jfif" alt="Second slide"> -->
+												<p>
+														Профессиональная технология Pro-celium Keratin широко используется парикмахерами-стилистами на международном уровне. Высокоэффективная формула укрепляет структуру волос.</p>
+													</p>
+													
+											</div>
+											<div class="carousel-item">
+													<!-- <img class="d-block w-100 productItem" src="images\\paste.jfif" alt="Second slide"> -->
+													<p>
+															Хочешь восстановить волосы после многолетних испытаний? Скорая SOS-помощь для безжизненных волос в серии Repair & Protect. Формула с биотином работает с каждым волосом, восстанавливая его изнутри. Видимый результат					</p>
+														</p>
+														
+												</div>
+												<div class="carousel-item">
+														<!-- <img class="d-block w-100 productItem" src="images\\paste.jfif" alt="Second slide"> -->
+														<p>
+							Волокнистый, смолистый продукт помогает сгущать, текстурировать и увеличивать полноту волос. Обеспечивает сильную, податливую фиксацию с матовой отделкой. Хорошо работает в коротких волосах, 1-3 дюйма в длину					</p>
+															</p>
+															
+													</div>
+									</div>
+									<a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+					</div>
+					<div class="product_slider">
+						<div id="carouselExampleControls2" class="carousel slide carousel-sync" data-ride="carousel">
+						<div class="carousel-inner">
+								<div class="carousel-item active">
+										<img src="images\\pomade.jpg" alt="pomade" style = "width:100%">					
+									</div>
+										<div class="carousel-item">
+											<img src="images\\paste.wbep" alt="paste" style = "width:100%">					
+										</div>
+											<div class="carousel-item">
+												<img src="images\\clay.webp" alt="clay" style = "width:100%">					
+											</div>
+											<div class="carousel-item">
+												<img src="images\\wax.jpg" alt="wax"  style = "width:100%">					
+											</div>
+											<div class="carousel-item">
+												<img src="images\\shampoo.webp" alt="shampoo" style = "width:100%">					
+											</div>
+											<div class="carousel-item">
+												<img src="images\\conditioner.png" alt="conditioner" style = "width:100%">					
+											</div>
+											<div class="carousel-item">
+												<img src="images\\gel.jpg" alt="gel" style = "width:100%">					
+											</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="button">
+					<a href="product.html">ПОДРОБНЕЕ</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+			<div class="footer_logo">
+				<img src="icons\logo.png" alt="logo" style="width:100%;margin-top:auto;margin-bottom: auto">
+			</div>
+			<div class="footer_menu">
+				<ul class="footer_menu">
+				    <li class="footer_menu_element">
+				      <a class="footer_menu_element" href="#about">ГЛАВНАЯ</a>
+				    </li>
+				    <li class="footer_menu_element">
+				      <a class="footer_menu_element" href="#pricelist">УСЛУГИ</a>
+				    </li>
+				    <li class="footer_menu_element">
+				      <a class="footer_menu_element" href="#barberlist">МАСТЕРА</a>
+				    </li> 
+				    <li class="footer_menu_element">
+				      <a class="footer_menu_element" href="#productlist">ПРОДУКЦИЯ</a>
+				    </li>
+				    <li class="footer_menu_element">
+				      <a class="footer_menu_element" href="academy.html">АКАДЕМИЯ</a>
+				    </li>
+				    <li class="footer_menu_element">
+				      <a class="footer_menu_element" href="contacts.html">КОНТАКТЫ</a>
+				    </li>
+			  </ul>
+			</div>
+			<div class="footer_address">
+				<h2>+7-776-0-100-400</h2>
+				<h4>Нур-Султан<br>пр. Улы Дала 21а</h4>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

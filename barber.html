@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Барберы</title>
+	<link rel="stylesheet" href="barber.css" type="text/css">
+	<meta name = "viewport" content = "width=device-width">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+	<script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+		<div class='container'>
+				<span class='pulse-button'>Записаться</span>
+			</div>
+	<div class="header">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#"><img src="icons\logo.png" alt="logo" width="80"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+				  <a class="nav-link" href="index.html">ГЛАВНАЯ <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="price.html">УСЛУГИ</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="barber.html">МАСТЕРА</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="product.html">ПРОДУКЦИЯ</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="academy.html">АКАДЕМИЯ</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="contacts.html">КОНТАКТЫ</a>
+				  </li>
+			  </ul>
+			  <form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+			  </form>
+			</div>
+		  </nav>
+	</div>	
+	<div class="content">
+		<div class="about" id = "about">
+			<div class="logo">
+				<img src="icons\logo.png" alt="logo" width="400" class = "logo">
+			</div>
+			<div class="about_text">
+				<p> Барберы </p>
+			</div>
+			<div class="button">
+				<a href="">Записаться</a>
+			</div>
+			<div class="sn">
+				<div class="facebook network">
+					<br>
+					<img src="icons\facebook.png" alt="facebook" width="20">
+					<br>
+					<br>
+				</div>
+				<div class="instagram network">
+					<br>
+					<img src="icons\instagram.png" alt="instagram" width="20">
+					<br><br>
+				</div>
+				<div class="vk network">
+					<br>
+					<img src="icons\vk.png" alt="vk" width="20">
+					<br><br>
+
+				</div>
+			</div>
+		</div>
+		<div class="barberslist" id = "barberlist">
+			<div class="barbers">
+				<h1>НАШИ БАРБЕРЫ</h1>
+				<p>Мастера своего дела</p>
+			</div>
+			<div class="barber_images">
+					<div class="">
+						<img class="" src="images\boss1.jpg" alt="First slide">
+						<h4>Владимир Медведев</h4>
+						<p>
+								ТОП-стилист <br>Колорист
+								<br>Мастер международного уровня
+								<br>Детские стрижки
+						</p>
+					</div>
+					<div class="">
+						<img class="" src="images\boss2.jpg" alt="Second slide">
+						<h4>Матвей Борисов</h4>	
+						<p>
+								Мужские стрижки <br>Моделирование бороды
+								<br>Опасное бритье
+								<br>Детские стрижки
+							</p>
+					</div>
+					<div class="">
+						<img class="" src="images\boss3.jpg" alt="Third slide">
+						<h4>Иван Иванов</h4>
+						<p>
+								Мужские стрижки <br>Моделирование бороды
+								<br>Опасное бритье
+								<br>Детские стрижки
+							</p>
+					</div>
+				</div>
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner" style = "text-align: center;">
+							<div class="carousel-item active">
+									<img class="d-block w-100" src="images\boss1.jpg" alt="First slide">
+									<h4>Владимир Медведев</h4>
+									<p>
+										ТОП-стилист <br>Колорист
+										<br>Мастер международного уровня
+										<br>Детские стрижки
+									</p>
+								</div>
+								<div class="carousel-item">
+										<img class="d-block w-100" src="images\boss2.jpg" alt="Second slide">
+										<h4>Матвей Борисов</h4>	
+										<p>
+												Мужские стрижки <br>Моделирование бороды
+												<br>Опасное бритье
+												<br>Детские стрижки
+											</p>
+									</div>
+									<div class="carousel-item">
+											<img class="d-block w-100 barberItem" src="images\boss3.jpg" alt="Third slide">
+											<h4>Иван Иванов</h4>
+											<p>
+													Мужские стрижки <br>Моделирование бороды
+													<br>Опасное бритье
+													<br>Детские стрижки
+												</p>
+										</div>
+							<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+										</a>
+						</div>
+				</div>
+			
+		</div>
+		<div class="footer">
+			<div class="footer_logo">
+				<img src="icons\logo.png" alt="logo" style="width:100%;margin-top:auto;margin-bottom: auto">
+			</div>
+			<div class="footer_menu">
+				<ul class="footer_menu">
+				    <li class="footer_menu_element">
+				      <a class="footer_menu_element" href="index.html">ГЛАВНАЯ</a>
+				    </li>
+				    <li class="footer_menu_element">
+				      <a class="footer_menu_element" href="price.html">УСЛУГИ</a>
+				    </li>
+				    <li class="footer_menu_element">
+				      <a class="footer_menu_element" href="barber.html">МАСТЕРА</a>
+				    </li> 
+				    <li class="footer_menu_element">
+				      <a class="footer_menu_element" href="product.html">ПРОДУКЦИЯ</a>
+				    </li>
+				    <li class="footer_menu_element">
+				      <a class="footer_menu_element" href="academy.html">АКАДЕМИЯ</a>
+				    </li>
+				    <li class="footer_menu_element">
+				      <a class="footer_menu_element" href="contacts.html">КОНТАКТЫ</a>
+				    </li>
+			  </ul>
+			</div>
+			<div class="footer_address">
+				<h2>+7-776-0-100-400</h2>
+				<h4>Нур-Султан<br>пр. Улы Дала 21а</h4>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
